@@ -38,7 +38,7 @@ const TripCard = ({
           <h3 className="text-2xl font-bold">{title}</h3>
         </a>
         <p className="text-sm text-gray-500 line-clamp-1">{description}</p>
-        <a href={url} target="_blank" className="underline text-blue-400">
+        <a href={url} target="_blank" className="underline text-blue-400 w-fit">
           อ่านต่อ
         </a>
         <p className="text-gray-600">
